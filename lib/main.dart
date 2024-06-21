@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:testes/home.dart';
 
 void main() {
-    runApp( MyApp());
+    runApp( const MyApp());
 }
 class MyApp extends MaterialApp {
-  MyApp({super.key}) : super(home: Home());
+  const MyApp({super.key}) : super(home: const Home());
 }
